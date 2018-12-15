@@ -136,7 +136,7 @@ class UserController extends FOSRestController
     }
 
     /**
-    * @Rest\Post("/user/{id}/timeslots")
+    * @Rest\Post("/users/{id}/timeslots")
     *
     *   Deals the POST request to insert timeslots to a user.   
     *
