@@ -37,3 +37,15 @@ php bin/console server:run
 ### Docs
 
 If you can call it that, the "docs" are not finished but available in /api/docs
+
+## NOTES
+The docs are wrong in the POST /users/8/timeslots request.
+The body should be something like:
+{
+    "timeslots": [
+        {
+            "start_time": "1544868000",
+            "end_time": "1544882400"
+        }
+    ]
+}
